@@ -1,0 +1,33 @@
+/* You can add global styles to this file, and also import other style files
+body {
+    margin: 0;
+    padding: 0;
+     width: 100vw;
+    height: 100vh; 
+    background-image: url(../src/assets/images/1.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    
+}
+
+@font-face {
+    font-family:Lobster ;
+    src: url(/src/assets/fonts/Lobster-Regular.ttf) format('truetype');
+}
+
+@font-face {
+    font-family: 'oleo';
+    src: url(/src/assets/fonts/OleoScript-Bold.ttf) format('truetype');
+}
+ */
+
+
+ body div.imgs {
+    background-image: url(../src/assets/images/img4.jpg);
+    height: 500px;
+    width: auto;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    position: relative;
+}
